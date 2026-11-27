@@ -1,0 +1,2 @@
+# Annotations
+Persistent IDs link marks and routes to quantities. Store unrotated PDF coordinates and transform for display. Green new devices, blue proposed routes, purple junction boxes, orange exceptions, gray existing, red demolition; customizable colors and line styles. Standard PDF annotations, flattened copy and native project editing are separate export modes. Verify Bluebeam round-trip; do not claim proprietary markup support. Current prototype supports manual green circles and deletion only.

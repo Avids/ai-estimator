@@ -1,0 +1,4 @@
+# Database
+Implemented tables: documents(id SHA256, filename, relative path); sheets(id, document_id, page one-based, relative path, provisional title, rotation, width, height); marks(id, sheet_id, kind, x, y). Coordinates unrotated PDF points; rendered display uses rotation matrix. Future migrations must preserve IDs.
+
+Planned tables: views(scale, calibration evidence, clip bounds); devices(mark ID, class, status, confidence, revision, circuit ID); rules(scope, value, unit, comparator, source document/page/clause/quote, approval, supersedes); circuits(panel, tags, voltage, conductor requirements, confirmation); routes(sheet, geometry, endpoints, raceway, approval); segment_circuits(segment, circuit, conductor count); exceptions; audit_events; quantity_lines(source IDs, unit, amount, allowance). Store physical raceway separately from logical circuits. Do not count detail duplicates. Use explicit units and source references.

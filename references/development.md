@@ -1,0 +1,4 @@
+# Development gates
+0. Repository and repeatable setup; 1. PDF import, immutable originals, page register, manual annotations and export; 2. source-backed project rulebook; 3. vector/raster detection benchmark; 4. confirmed circuit graph; 5. calibrated same-floor routing; 6. shared raceway optimization and labour; 7. optional integration and installer.
+
+Data contracts: document SHA256; sheet ID and source page index; coordinates in unrotated PDF points, calibrated mm/point per view; device ID, type, status, confidence, source and circuit; rule ID, scope, source quote, units and review status; route ID, vertices, endpoints, raceway type, circuit memberships and review status. Store physical and logical connectivity separately. Never count repeated detail views automatically. Keep exported quantities linked to source IDs and revisions. Test actual GUI interactions on Windows before declaring release.
